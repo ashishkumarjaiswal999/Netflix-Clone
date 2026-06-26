@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200" preserveAspectRatio="none" width="1440" height="200">
+  <defs>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#e91e8c"/>
+      <stop offset="40%"  stop-color="#c2185b"/>
+      <stop offset="50%"  stop-color="#7b0000"/>
+      <stop offset="60%"  stop-color="#c2185b"/>
+      <stop offset="100%" stop-color="#e91e8c"/>
+    </linearGradient>
+
+    <!-- Stronger blue, fades only at very bottom -->
+    <radialGradient id="bowlGrad" cx="50%" cy="0%" r="100%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#4060ff" stop-opacity="1"/>
+      <stop offset="40%"  stop-color="#2233bb" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#0d1460" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000008" stop-opacity="1"/>
+    </radialGradient>
+
+    <filter id="lineGlow" x="-5%" y="-500%" width="110%" height="1100%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="bowlClip">
+      <path d="M 0,155 Q 720,18 1440,155 L 1440,200 L 0,200 Z"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- Bold blue bowl, fully opaque -->
+  <rect width="1440" height="200" fill="url(#bowlGrad)" clip-path="url(#bowlClip)"/>
+
+  <!-- Arc line -->
+  <path
+    d="M 0,155 Q 720,18 1440,155"
+    fill="none"
+    stroke="url(#lineGrad)"
+    stroke-width="1.5"
+    filter="url(#lineGlow)"
+  />
+
+</svg>

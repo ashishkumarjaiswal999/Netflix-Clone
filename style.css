@@ -137,3 +137,19 @@
     border: 4px;
     filter: contrast(200%) brightness(200%);
 }
+
+.ellipse-divider {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin: -1px 0; /* removes any gap between sections */
+}
+.ellipse-divider svg {
+  width: 100%;
+  height: auto;
+}
+.content7{font-size: 26px;
+color: white;
+}
+.elip{transform: translateY(-100px);
+filter: opacity(1);}
