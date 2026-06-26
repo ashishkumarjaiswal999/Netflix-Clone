@@ -19,20 +19,20 @@
 }
 
 .dropdown {
-        justify-self: flex-end;
-        height: 35px;
-        width: 130px;
-        border-radius: 5px;
-        background-color: black;
-        color: white;
-        opacity: 0.8;
-        font-size: medium;
+    justify-self: flex-end;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    font-size: medium;
 
 
 }
 
 .box {
-    height: 80vh;
+    height: 98vh;
     width: 100vw;
     background-image: url(assets/IN-en-20260622-TRIFECTA-perspective_d39d60ef-cb5a-4793-9546-0a8d9a87948e_large.jpg);
     ;
@@ -111,12 +111,12 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-     height: 60px;
+    height: 60px;
 }
 
 .typebox {
     width: 350px;
-   
+
     border-radius: 5px;
     background-color: black;
     color: white;
@@ -127,7 +127,7 @@
 
 .started {
     width: 200px;
-    
+
     background-color: #e50914;
     border-radius: 5px;
     color: white;
@@ -138,18 +138,66 @@
     filter: contrast(200%) brightness(200%);
 }
 
-.ellipse-divider {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  margin: -1px 0; /* removes any gap between sections */
+.content7 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.ellipse-divider svg {
-  width: 100%;
-  height: auto;
+
+.elip {
+    transform: translateY(-100px);
+    filter: brightness();
+    height: 100px;
 }
-.content7{font-size: 26px;
-color: white;
+
+.body {
+    overflow-x: hidden;
+    overflow-y: auto;
 }
-.elip{transform: translateY(-100px);
-filter: opacity(1);}
+
+.images {
+    display: flex;
+    justify-content: right;
+    margin-top: 25px;
+    height: 250px;
+    width: 97%;
+}
+
+.imgg {
+    border-radius: 16px;
+}
+
+.img6 {
+    width: 50px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    object-position: 1px;
+}
+
+.num {
+    font-size: 6.25rem;
+    font-family: sans-serif;
+    z-index: 2;
+    transform: translate(-200px, 130px);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.num6 {
+    transform: translate(-60px, 130px);
+}
+
+.button {
+    height: 120px;
+    margin-top: 60px;
+    transform: translateX(-45px);
+    width: 25px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    border: #1a1a1a;
+    font-size: 27px;
+    color: rgb(180, 177, 173);
+}
