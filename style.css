@@ -337,4 +337,34 @@
     gap: 10px;
     height: 60px;
 }
-.content21{width: 600px;}
+
+.content21 {
+    width: 600px;
+}
+
+.content22 {
+    color: white;
+    font-size: 18px;
+    margin-left: 160px;
+    display: flex;
+}
+
+.content23 {
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+    margin-left: 27px;
+    margin-top: 38px;
+    margin-bottom: 150px;
+}
+
+.content24 {
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+   text-decoration: underline;
+}
+.c30{text-decoration: underline;}
