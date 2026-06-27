@@ -365,6 +365,9 @@
     gap: 23px;
     display: flex;
     flex-direction: column;
-   text-decoration: underline;
+    text-decoration: underline;
 }
-.c30{text-decoration: underline;}
+
+.c30 {
+    text-decoration: underline;
+}
