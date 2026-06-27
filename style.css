@@ -161,6 +161,7 @@
     margin-top: 25px;
     height: 250px;
     width: 97%;
+    margin-bottom: 75px;
 }
 
 .imgg {
@@ -200,4 +201,9 @@
     border: #1a1a1a;
     font-size: 27px;
     color: rgb(180, 177, 173);
+}
+.content8{width: 100%;
+object-fit: scale-down;
+transform: scaleY(0.8) translateY(-90px) scaleX(1.1);
+align-self: self-start;
 }
